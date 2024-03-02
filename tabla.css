@@ -1,0 +1,25 @@
+#contenedor {
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+  padding: 30px;
+  border-radius: 10%;
+  
+}
+select{
+  border-radius: 5%;
+  padding: 3px;
+background-color: rgb(238, 239, 241);
+}
+input{
+  border-radius: 5%;
+  padding: 3px;
+background-color: rgb(238, 239, 241);
+}
+#boton{
+  margin-top: 10px;
+  align-items: center;
+}
+

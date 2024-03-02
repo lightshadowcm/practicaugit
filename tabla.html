@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="tabla.css">
+</head>
+<body>
+    <div id="contenedor">
+    <form action="">
+   <label for="nombre">Nombre</label><br>
+   <input id="nombre" type="text" max="80"  >
+   <br>
+   <label for="">Tipo documento</label><br>
+   
+   <select name="mi_select" >
+    <option value="1">Targeta de identidad</option>
+    <option value="2" selected>Cedula de ciudadania</option>
+    <option value="3">Pasaporte</option>
+  </select>
+   <br>
+   <label for="">Documento</label><br>
+   <input type="number" min="0">
+
+   <br>
+   <label for="">Email</label><br>
+   <input type="email">
+   <br>
+   <label for="">Telefono</label><br>
+   <input type="text" required><br>
+   <input type="button"  id="boton" value="enviar">
+   </div>
+   
+</form>
+</body>
+</html>
